@@ -7,6 +7,14 @@ description: Transcribe local audio or video files with timestamps and translate
 
 Use the bundled script for deterministic Whisper inference, then review the JSON before producing the user-facing transcript.
 
+## Setup
+
+Before the first run, verify `ffmpeg` and install the platform-appropriate dependency:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
 ## Workflow
 
 1. Inspect the source with `ffmpeg` and report its duration.
