@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audio Transcribe & Translate"
+  short_description: "Fast local transcription and selective translation"
+  default_prompt: "Use $audio-transcribe-translate to transcribe this audio and translate non-English speech into English."
